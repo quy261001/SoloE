@@ -1,7 +1,8 @@
 <template>
-<div class="flex item-center justify-evenly px-5">
+<div class="flex px-5">
+    <div class="flex max-w-[50%]">
         <div class="text-[#fff] px-[20px] ProfileMain">
-            <h2 class="text-[50px]">{{ StoryProduct.name}}</h2>
+            <h2 class="text-center text-[50px]">{{ StoryProduct.name}}</h2>
             <p class="title-sp">({{ StoryProduct.namesp }})</p>
             <p>Giới tính: {{ StoryProduct.gender }}</p>
             <p>Chủng loài: {{ StoryProduct.Race }}</p>
@@ -10,7 +11,12 @@
             <p>Hệ: {{ StoryProduct.Class }}</p>
             <p>Bang Hội: {{ StoryProduct.Guild }}</p>
         </div>
-        <img class="img-detail h-[100%] w-[200px] mr-14  rounded-xl" :src="`${StoryProduct.image}`" alt="">
+        <img class="img-detail h-[400px] w-[200px] mr-14  rounded-xl" :src="`${StoryProduct.image}`" alt="">
+    </div>
+    <div class="StoryHero text-[#fff] max-w-[50%]">
+            <h3 class="StoryHero text-center text-[42px]">Tiểu Sử</h3>
+            <p>{{ StoryProduct.History }}</p>
+    </div>
 </div>
    
 </template>
@@ -38,5 +44,17 @@ const {StoryProduct} = defineProps(['StoryProduct'])
 .ProfileMain h2 {
     font-family: 'Dancing Script', cursive;
     color: #FF3300;
+}
+.StoryHero h3 {
+    font-family: 'Dancing Script', cursive;
+    color: #FF3300;
+}
+.StoryHero p {
+    font-family: 'Dancing Script', cursive;
+    color: #CCFF66;
+    font-size: 24px;  display: -webkit-box;
+    -webkit-line-clamp: 8;
+    -webkit-box-orient: vertical;  
+    overflow: hidden;
 }
 </style>

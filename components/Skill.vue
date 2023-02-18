@@ -1,7 +1,7 @@
 <template>
-  <div class="power px-3 flex gap-5">
+  <div class="power px-6 flex gap-5">
     <img
-      class="img-detail h-[100%] w-[210px] mr-14 rounded-xl"
+      class="img-detail h-[360px] w-[210px] mr-14 rounded-xl"
       :src="`${SkillProduct.image}`"
       alt=""
     />

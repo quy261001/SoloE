@@ -6,7 +6,7 @@
             <img class="max-w-[80%] mx-auto" src="@/assets/img/logoS.png" alt="">
         </NuxtLink>
         <div class="charater">
-            <img class="w-[65%] mx-auto charater-img" :src="`${product.image}`" alt="">
+            <img class="h-[300px] w-[200px] mx-auto charater-img" :src="`${product.image}`" alt="">
             <h3 class="text-center text-[32px] text-[#fff] mt-1">{{ product.name }}</h3>
             <p class="text-center text-[yellow]">Rank: {{ product.rank }}</p>
                 <NuxtLink :to="`/products/${product.id}`">
