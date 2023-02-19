@@ -14,13 +14,7 @@
                             <li><NuxtLink to="/">Cốt Truyện</NuxtLink></li> 
                             <li><NuxtLink to="/products">Danh Sách Nhân Vật</NuxtLink></li>
                         </ul>
-                    </div>
-                    <div class="container-r relative">
-                        <input class="container-r-input" type="text" name="" id="">
-                        <span class="material-icons text-[#fff] icon-search">
-                            search
-                        </span>
-                    </div>
+                    </div>                 
                 </nav>
             </header>
              <!-- Content -->

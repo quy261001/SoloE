@@ -2,8 +2,8 @@
 <div class="flex px-5">
     <div class="flex max-w-[50%]">
         <div class="text-[#fff] px-[20px] ProfileMain">
-            <h2 class="text-center text-[50px]">{{ StoryProduct.name}}</h2>
-            <p class="title-sp">({{ StoryProduct.namesp }})</p>
+            <h2 class="text-center text-[64px]">{{ StoryProduct.name}}</h2>
+            <p class="title-sp !text-[14px]">({{ StoryProduct.namesp }})</p>
             <p>Giới tính: {{ StoryProduct.gender }}</p>
             <p>Chủng loài: {{ StoryProduct.Race }}</p>
             <p>Quốc gia: {{ StoryProduct.Address }}</p>
@@ -36,7 +36,7 @@ const {StoryProduct} = defineProps(['StoryProduct'])
     gap: 20px;
 }
 .ProfileMain p{
-    font-size: 30px;
+    font-size: 28px;
     font-family: 'Dancing Script', cursive;
     color: #CCFF66;
     text-align: center;
