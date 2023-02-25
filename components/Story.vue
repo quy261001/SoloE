@@ -2,7 +2,7 @@
 <div class="flex px-5">
     <div class="flex max-w-[50%]">
         <div class="text-[#fff] px-[20px] ProfileMain">
-            <h2 class="text-center text-[64px]">{{ StoryProduct.name}}</h2>
+            <h2 class="text-center text-[36px]">{{ StoryProduct.name}}</h2>
             <p class="title-sp !text-[14px]">({{ StoryProduct.namesp }})</p>
             <p>Giới tính: {{ StoryProduct.gender }}</p>
             <p>Chủng loài: {{ StoryProduct.Race }}</p>
